@@ -5,16 +5,42 @@
     <style>
       html {
         overflow: hidden;
+		padding:0;
+		margin:0;
       }
+	  body {
+		margin: 0;
+		padding:0;
+	  }
       #profilepic {
-        background: url('profilepic.jpg') no-repeat;
+		height:100%;
+		float:left;
+		width: 70%;
+		padding:0;
+		margin:0;
       }
+	  #aboutme {
+		padding: 100px 10px 10px 10px;
+		font-family: 'Istok Web', sans-serif;
+	  }
+	  #aboutme .name {
+		display:block;
+		font-weight: 700;
+		font-size:22px;
+	  }
     </style>
+	<link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
   </head>
   <body>
     <div id="profilepic">
+		<img src="profilepic.jpg">
     </div>
     <div id="aboutme">
+		<div class="name">Poonam Gorade</div>
+		<small>Creative Writer, Foody, Sci-Fi Movie Lover<i> (action packed!!)</i></small>
+		<p>
+		Something about me
+		</p>
     </div>
   </body>
 </html>
